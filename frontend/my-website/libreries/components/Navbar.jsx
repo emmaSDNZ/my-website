@@ -1,12 +1,13 @@
 "use client";
-import { stylesNavBar } from '../styles/stylesNavBar';
-import { diccWebSite } from '../services/diccWebSite';
-import Link from 'next/link';
+import Link from "next/link";
+import { stylesNavBar } from "../styles/stylesNavBar";
+import { diccWebSite } from "../services/diccWebSite";
 
 export default function Navbar() {
   const elementosMenu = [];
+
   for (const clave in diccWebSite) {
-    if (clave === "HOME") continue;
+    if (clave === "HOME") continue; // HOME será logo a la izquierda
     elementosMenu.push(
       <li key={clave}>
         <Link

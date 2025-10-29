@@ -6,11 +6,11 @@ export default function MyServices() {
   return (
     <div className="flex flex-col items-center gap-10 w-full">
 
-      {/* Encabezado */}
-      <div className="text-center">
-        <h2 className="text-2xl font-bold text-slate-900">My Services</h2>
-        <p className="text-slate-600">Lo que hago y con lo que puedo ayudarte</p>
-      </div>
+ {/* Título */}
+      <h2 className="text-4xl font-bold mb-4">My Services</h2>
+      <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
+        Arquitectura, integración y automatización basada en IA para soluciones digitales y procesos empresariales.
+      </p>
       
       {/* Render dinámico de cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -23,7 +23,6 @@ export default function MyServices() {
           />
         ))}
       </div>
-
     </div>
   );
 }
