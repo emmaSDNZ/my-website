@@ -5,12 +5,8 @@ import Link from 'next/link';
 
 export default function Navbar() {
   const elementosMenu = [];
-
-  // Recorremos el diccionario usando for...in
   for (const clave in diccWebSite) {
-    // Saltamos HOME, porque será el logo a la izquierda
     if (clave === "HOME") continue;
-
     elementosMenu.push(
       <li key={clave}>
         <Link

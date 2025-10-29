@@ -12,8 +12,8 @@ export default function Content() {
             <Image
             src="/image.jpg"
             alt="Profile Picture"
-            width={500}   // ancho en px
-            height={500}  // alto en px
+            width={500}  
+            height={500}  
             />
 
         </div>

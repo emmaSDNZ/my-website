@@ -1,7 +1,10 @@
 import React from 'react'
-
+import MyServices from './MyServices'
 export default function page() {
+  
   return (
-    <div>page</div>
+    <div>
+      <MyServices/>
+    </div>
   )
 }

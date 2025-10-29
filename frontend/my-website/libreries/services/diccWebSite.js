@@ -1,5 +1,5 @@
-  import {MyServices} from '../components/MyServices'
-
+  //import {MyServices} from '../components/MyServices'
+import MyServices from "@/app/myServices/MyServices";
 export const diccWebSite = {
   "HOME": {
     name: "E. SUDAÑEZ",
@@ -14,7 +14,7 @@ export const diccWebSite = {
   "SERVICES": {
     name: "SERVICES",
     link: "/myServices",
-    componente: () => <MyServices />
+    componente: () => <MyServices/>
   },
   "CONTACT": {
     name: "CONTACT",
